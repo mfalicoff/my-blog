@@ -1,8 +1,8 @@
 {
-  "title": "Next.js Starter Blog",
-  "author": "Tails Azimuth",
-  "headerTitle": "TailwindBlog",
-  "description": "A blog created with Next.js and Tailwind.css",
+  "title": "The Lonely Gamer",
+  "author": "Maximiliano Falicoff",
+  "headerTitle": "Lonely Gamer",
+  "description": "A blog for my thoughts on games and other media",
   "language": "en-us",
   "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
   "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",

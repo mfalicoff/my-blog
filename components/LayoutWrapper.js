@@ -44,6 +44,9 @@ const LayoutWrapper = ({ children }) => {
             <MobileNav />
           </div>
         </header>
+        <div className="block">
+          <h1>Currently Playing: Nier Replicant</h1>
+        </div>
         <main className="mb-auto">{children}</main>
         <Footer />
       </div>
