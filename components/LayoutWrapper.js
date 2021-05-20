@@ -46,6 +46,7 @@ const LayoutWrapper = ({ children }) => {
             <MobileNav />
           </div>
         </header>
+        <main className="mb-auto">{children}</main>
         <div className="divide-y divide-gray-200 dark:divide-gray-700">
           <div className="container py-12">
             <h1 className="!font-bold underline">Currently Playing/Reading</h1>
@@ -64,7 +65,6 @@ const LayoutWrapper = ({ children }) => {
             </div>
           </div>
         </div>
-        <main className="mb-auto">{children}</main>
         <Footer />
       </div>
     </SectionContainer>
