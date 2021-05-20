@@ -33,22 +33,22 @@ export default function About() {
               <SocialIcon kind="twitter" href={siteMetadata.twitter} />
             </div>
           </div>
-          <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
-            <p>
-              Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His
-              research interests includes complexity modelling of tailwinds, headwinds and
-              crosswinds.
-            </p>
-            <p>
-              He leads the clean energy group which develops 3D air pollution-climate models, writes
-              differential equation solvers, and manufactures titanium plated air ballons. In his
-              free time he bakes raspberry pi.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique
-              placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem
-              nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-            </p>
+          <div className="block items-center justify-between py-10">
+            <div>
+              <h3 className="text-center underline">Favourite Game</h3>
+              <img src="/static/images/favourites/p3Fes.jpg" alt="Persona 3 FES" />
+              <h4 className="text-center justify-between py-10">Persona 3 FES</h4>
+            </div>
+            <div>
+              <h3 className="text-center underline">Favourite Book</h3>
+              <img src="/static/images/favourites/1984.jpg" alt="1984" />
+              <h4 className="text-center justify-between py-10">1984</h4>
+            </div>
+            <div>
+              <h3 className="text-center underline">Favourite Movie</h3>
+              <img src="/static/images/favourites/2049.jpg" alt="2049" />
+              <h4 className="text-center justify-between py-10">Blade Runner 2049</h4>
+            </div>
           </div>
         </div>
       </div>
