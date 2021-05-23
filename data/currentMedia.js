@@ -1,12 +1,11 @@
 const currentMedia = [
   {
-    title: 'NieR Replicant™ ver.1.22474487139...',
-    description: `The upgraded prequel of NieR:Automata. 
-    A kind young man sets out with Grimoire Weiss, a strange talking book, to search for the "Sealed verses" in order to save his sister Yonah, 
-    who fell terminally ill to the Black Scrawl. `,
-    imgSrc: '/static/images/games/nierRe.png',
+    title: 'Manifold Garden',
+    description: `Rediscover gravity and explore an Escher-esque world of impossible architecture. Witness infinity in first-person and master 
+    its rules to solve physics-defying puzzles. Cultivate a garden to open new paths forward, where an eternal expanse awaits. `,
+    imgSrc: '/static/images/games/manifoldGarden.png',
     type: 'Game',
-    href: 'https://store.steampowered.com/app/1113560/NieR_Replicant_ver122474487139/',
+    href: 'https://store.steampowered.com/app/473950/Manifold_Garden/',
   },
   {
     title: 'Red Seas Under Red Skies by Scott Lynch',
