@@ -51,17 +51,43 @@ const LayoutWrapper = ({ children }) => {
           <div className="container py-12">
             <h1 className="!font-bold underline">Currently Playing/Reading</h1>
             <br />
-            <div className="flex flex-wrap -m-7">
-              {CurrentMedia.map((d) => (
-                <Card
-                  key={d.title}
-                  title={d.title}
-                  description={d.description}
-                  imgSrc={d.imgSrc}
-                  type={d.type}
-                  href={d.href}
-                />
-              ))}
+            <div>
+              <h3 className="underline m-10">Games</h3>
+              <div className="flex flex-wrap -m-7">
+                {CurrentMedia.map((d) => {
+                  if (d.type === 'Game') {
+                    console.log('game')
+                    return (
+                      <Card
+                        key={d.title}
+                        title={d.title}
+                        description={d.description}
+                        imgSrc={d.imgSrc}
+                        type={d.type}
+                        href={d.href}
+                      />
+                    )
+                  }
+                })}
+              </div>
+              <h3 className="underline m-10">Other Media</h3>
+              <div className="flex flex-wrap -mt-7">
+                {CurrentMedia.map((d) => {
+                  if (d.type !== 'Game') {
+                    console.log('other')
+                    return (
+                      <Card
+                        key={d.title}
+                        title={d.title}
+                        description={d.description}
+                        imgSrc={d.imgSrc}
+                        type={d.type}
+                        href={d.href}
+                      />
+                    )
+                  }
+                })}
+              </div>
             </div>
           </div>
         </div>
