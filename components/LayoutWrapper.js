@@ -7,6 +7,7 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import CurrentMedia from '@/data/currentMedia'
+import futureMedia from '@/data/futureMedia'
 import Card from '@/components/Card'
 
 const LayoutWrapper = ({ children }) => {
@@ -53,10 +54,9 @@ const LayoutWrapper = ({ children }) => {
             <br />
             <div>
               <h3 className="underline m-10">Games</h3>
-              <div className="flex flex-wrap -m-7">
+              <div className="flex flex-wrap -mt-7">
                 {CurrentMedia.map((d) => {
                   if (d.type === 'Game') {
-                    console.log('game')
                     return (
                       <Card
                         key={d.title}
@@ -74,7 +74,6 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex flex-wrap -mt-7">
                 {CurrentMedia.map((d) => {
                   if (d.type !== 'Game') {
-                    console.log('other')
                     return (
                       <Card
                         key={d.title}
@@ -86,6 +85,16 @@ const LayoutWrapper = ({ children }) => {
                       />
                     )
                   }
+                })}
+              </div>
+              <div>
+                <h3 className="underline m-10">In the log</h3>
+                {futureMedia.map((d) => {
+                  return (
+                    <li key={d.title}>
+                      {d.title}: {d.type}
+                    </li>
+                  )
                 })}
               </div>
             </div>
