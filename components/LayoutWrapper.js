@@ -7,7 +7,6 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import CurrentMedia from '@/data/currentMedia'
-import futureMedia from '@/data/futureMedia'
 import Card from '@/components/Card'
 
 const LayoutWrapper = ({ children }) => {
@@ -85,16 +84,6 @@ const LayoutWrapper = ({ children }) => {
                       />
                     )
                   }
-                })}
-              </div>
-              <div>
-                <h3 className="underline m-10">In the log</h3>
-                {futureMedia.map((d) => {
-                  return (
-                    <li key={d.title}>
-                      {d.title}: {d.type}
-                    </li>
-                  )
                 })}
               </div>
             </div>
