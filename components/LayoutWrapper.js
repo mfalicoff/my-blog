@@ -81,6 +81,7 @@ const LayoutWrapper = ({ children }) => {
                         imgSrc={d.imgSrc}
                         type={d.type}
                         href={d.href}
+                        author={d.author}
                       />
                     )
                   }
