@@ -1,6 +1,6 @@
 ---
 title: Disco Elysium - The Final Cut
-date: '2021-06-11'
+date: '2021-06-12'
 tags: ['games', 'PC', 'CRPG']
 draft: false
 summary: 'A Modern Book'
@@ -43,9 +43,19 @@ Now, this is a though game to write on, and that is due to the very nature of th
 
 Let’s start with the story, you play as \_\_\_ , the name part you must figure it out. A cop from precinct 41 and you and your partner Kim have to investigate a murder that occurred during a labor strike, the story unfolds as you make different choices depending on your skills which will heavily influence how you view and play the story, for example having a high level of encyclopedia will leave you drowning in interruptions as you brain interrupts you constantly with random bits of knowledge.
 
-As you complete quests and main objectives you gain experience which will lead to a level gain, where you can invest said points into the skills (around 20 I believe)
+As you complete quests and main objectives you gain experience which will lead to a level gain, where you can invest said points into the skills (around 20 I believe) that will inevitably have you laughing out loud at how absurd they interact with the main character. Not even joking when I say that this game had me actually laughing hysterically a couple of times, this game’s comedy is on point, not overtly funny but in a more sarcastic way that relies on what is happening in the moment than just making a out of place joke.
+
+These skills are further complemented by the clothing that you decide to wear (which are found or bought throughout the world), by that I mean that the clothing items each provide and increase or a decrease in a certain or multiple skills. The amount of skill you have will then be useful when facing certain checks in the game. This being an old school CRPG, these checks are determined by a simulated dice roll where your total amount rolled plus your skill level has to be over a certain number in order to pass the check, if so you can proceed, if not some of them can be retried if you increase your skill or they can’t in which case it’s missed out content. Therein lies the beauty of this game, as you develop your own character and roleplay as him, your philosophy will be fundamentally incompatible with a certain narrative where you to succeed all checks (even though it’s technically possible if you roll 2\*6).
+
+You can really vary you protagonists, from being a communist fascist cop to a sorry art cop, these core ideals are further cemented into the main character through a mechanic called thoughts, where after certain in-world triggers (after events or discovering new locations) you can uncover new thoughts, i.e. ideas which you can adopt. After adopting said idea your skills will further morph, for example choosing to be a moralist will heal you and raise certain caps for some skills.
+
+I do think that this game can be very powerful in it’s message should you choose to partake in the absurdism that is Disco Elysium, it’s deep in the exploration of the human being and it’s place in the void, socio-economic problems, politics and just about anything that you can think of, this game probably tackles it some shape or form.
 
 # Bottom Line
+
+This second playthrough of Disco Elysium really cements it in my beloved games category, it’s absolutely not for everyone, but for those who enjoy a good thought provoking story, beautiful art and music, or a RPG fan, this game is definitely a must play and one of the best of the genre.
+
+This being the first game release by ZAUM, I’m really looking forward to their next release.
 
 #### Footnotes
 

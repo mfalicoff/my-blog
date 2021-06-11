@@ -1,13 +1,13 @@
 const currentMedia = [
   {
     title: 'Yakuza 0',
-    description: `Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.`,
-    imgSrc: '/static/images/games/discoElysium.jpg',
+    description: `The glitz, glamour, and unbridled decadence of the 80s are back in Yakuza 0. Fight like hell through Tokyo and Osaka with protagonist Kazuma Kiryu and series ...`,
+    imgSrc: '/static/images/games/yakuza0.jpg',
     type: 'Game',
-    href: 'https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/',
+    href: 'https://store.steampowered.com/app/638970/Yakuza_0/',
   },
   {
-    title: 'Final Fantasy 7 Remake',
+    title: 'Final Fantasy 7 Remake Intergrade',
     description: `Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.`,
     imgSrc: '/static/images/games/discoElysium.jpg',
     type: 'Game',
