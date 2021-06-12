@@ -7,6 +7,7 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import CurrentMedia from '@/data/currentMedia'
+import currentProject from '@/data/currentProject'
 import Card from '@/components/Card'
 
 const LayoutWrapper = ({ children }) => {
@@ -82,6 +83,23 @@ const LayoutWrapper = ({ children }) => {
                         type={d.type}
                         href={d.href}
                         author={d.author}
+                      />
+                    )
+                  }
+                })}
+              </div>
+              <h3 className="underline m-10">Special Project</h3>
+              <div className="flex flex-wrap -mt-7">
+                {currentProject.map((d) => {
+                  if (d.type === 'Game') {
+                    return (
+                      <Card
+                        key={d.title}
+                        title={d.title}
+                        description={d.description}
+                        imgSrc={d.imgSrc}
+                        type={d.type}
+                        href={d.href}
                       />
                     )
                   }

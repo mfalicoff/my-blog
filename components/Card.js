@@ -33,7 +33,7 @@ const Card = ({ title, description, imgSrc, type, href, author }) => (
             title
           )}
         </h2>
-        {author ? <p>data</p> : null}
+        {author ? <p>{author}</p> : null}
         <p className="prose text-gray-500 max-w-none dark:text-gray-400 mb-3 truncate overflow-ellipsis">
           {description}
         </p>
