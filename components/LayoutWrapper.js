@@ -47,48 +47,6 @@ const LayoutWrapper = ({ children }) => {
           </div>
         </header>
         <main className="mb-auto">{children}</main>
-        <div className="divide-y divide-gray-200 dark:divide-gray-700">
-          <div className="container py-12">
-            <h1 className="!font-bold underline">Currently Playing/Reading</h1>
-            <br />
-            <div>
-              <h3 className="underline m-10">Games</h3>
-              <div className="flex flex-wrap -mt-7">
-                {CurrentMedia.map((d) => {
-                  if (d.type === 'Game') {
-                    return (
-                      <Card
-                        key={d.title}
-                        title={d.title}
-                        description={d.description}
-                        imgSrc={d.imgSrc}
-                        type={d.type}
-                        href={d.href}
-                      />
-                    )
-                  }
-                })}
-              </div>
-              <h3 className="underline m-10">Other Media</h3>
-              <div className="flex flex-wrap -mt-7">
-                {CurrentMedia.map((d) => {
-                  if (d.type !== 'Game') {
-                    return (
-                      <Card
-                        key={d.title}
-                        title={d.title}
-                        description={d.description}
-                        imgSrc={d.imgSrc}
-                        type={d.type}
-                        href={d.href}
-                      />
-                    )
-                  }
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
         <Footer />
       </div>
     </SectionContainer>
