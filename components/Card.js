@@ -33,7 +33,9 @@ const Card = ({ title, description, imgSrc, type, href }) => (
             title
           )}
         </h2>
-        <p className="prose text-gray-500 max-w-none dark:text-gray-400 mb-3 truncate overflow-ellipsis">{description}</p>
+        <p className="prose text-gray-500 max-w-none dark:text-gray-400 mb-3 truncate overflow-ellipsis">
+          {description}
+        </p>
         <p className="prose text-gray-500 max-w-none dark:text-gray-400 mb-3">Media: {type}</p>
         {href && (
           <Link
